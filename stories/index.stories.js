@@ -13,7 +13,7 @@ storiesOf('Button', module)
   .add('with text', () => <Button onClick={action('clicked')}>Hello Button</Button>)
   .add('primary', () => (
     <div>
-      <PrimaryButton/>
+      <PrimaryButton/><br /><br />
       <PrimaryButton disabled/>
       </div>
 
