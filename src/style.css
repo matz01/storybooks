@@ -10,3 +10,7 @@
 .primaryButton:hover{
     background-color: lightgray;
 }
+
+.primaryButton.disabled{
+    opacity: .5;
+}
